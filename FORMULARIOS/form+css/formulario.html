@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <header>
+        <h1>FORMULARIO HORARIO</h1>
+    </header>
+    <main>
+        <form action="" method="GET">
+            <label for="asignatura">Asignaturas:</label>
+            <br/>
+            <label>
+                <input type="radio" name="asignatura" value="INT"> INTERFACE
+            </label>
+            <br/>
+            <label>
+                <input type="radio" name="asignatura" value="CLI"> CLIENTE
+            </label>
+            <br/>
+            <label>
+                <input type="radio" name="asignatura" value="DES"> DESPLIEGUE
+            </label>
+
+            <br/><br/>
+            <label for="nombre">Profesor:</label>
+            <br/>
+            <select name="profesor">
+                <option value="Isabel">Isabel</option>
+                <option value="Alberto">Alberto</option>
+                <option value="Ernesto">Ernesto</option>
+            </select>
+            <br/><br/>
+            <label for="horas">Horas:</label>
+            <br/>
+            <input type="text" name="hora" id="hora">
+            <br/><br/>
+            <label for="informacion">Información:</label>
+            <br/>
+            <textarea name="informacion" id="informacion"></textarea>
+            <br/><br/>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    
+</body>
+</html>
