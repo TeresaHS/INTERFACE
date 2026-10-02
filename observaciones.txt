@@ -1,7 +1,8 @@
 Cuando le ponemos un margin a una caja, los superiores e inferiores se sobreponen unos a otros.
 Sin embargo, los laterales no lo hacen, sino que se "suman".
 
-Si quisiera separar en vertical dos cajas, la lógica que se suele sacar en un principio es poner un margin bottom a la caja superior
-y un margin top a la caja inferior. Ambos dando el total de separació que queremos.
+Si quisiera separar en vertical dos cajas, la lógica que se suele pensar en un principio es poner un margin bottom 
+a la caja superior y un margin top a la caja inferior. Ambos dando el total de separació que queremos.
 
-Eso no responde como se espera por lo que tenemos que aplicar como margin top a la caja inferior el total de separación que queremos.
+Eso no responde como se espera por lo que tenemos que aplicar como margin top a la caja inferior 
+el total de separación que queremos.
