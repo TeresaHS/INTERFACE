@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO FORMULARIO</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <h1></h1>
+
+    <form action="./visualizar.php" method="GET">
+
+        <label for="nombre">Nombre:</label>
+        <br/>
+        <input type="text" name="nombre"/>
+        <br/><br/>
+        <label for="asignatura">Asignaturas:</label>
+        <br/>
+        <!--
+        <label>
+            <input type="radio" name="asignatura" value="INT"> INTERFACE
+        </label>
+        <br/>
+        <label>
+            <input type="radio" name="asignatura" value="CLI"> CLIENTE
+        </label>
+        <br/>
+        <label>
+            <input type="radio" name="asignatura" value="DES"> DESPLIEGUE
+        </label>
+
+    -->
+        
+        <label>
+            <input type="checkbox" name="asignatura" value="INT"> INTERFACE
+        </label>
+        <br/>
+        <label>
+            <input type="checkbox" name="asignatura" value="CLI"> CLIENTE
+        </label>
+        <br/>
+        <label>
+            <input type="checkbox" name="asignatura" value="DES"> DESPLIEGUE
+        </label>
+        <br/><br/>
+        <label for="repite">Repite:</label>
+        <label>
+            <input type="checkbox" name="repite"/> 
+        </label>
+        <br/><br/>
+        <label for="nombre">Profesor:</label>
+        <br/>
+        <select name="profesor">
+            <option value="Isabel">Isabel</option>
+            <option value="Alberto">Alberto</option>
+            <option value="Ernesto">Ernesto</option>
+        </select>
+        <br/><br/>
+        <label for="horas">Horas:</label>
+        <br/>
+        <input type="text" name="hora">
+        <br/><br/>
+        <label for="informacion">Información:</label>
+        <br/>
+        <textarea name="informacion"></textarea>
+        <br/><br/>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
