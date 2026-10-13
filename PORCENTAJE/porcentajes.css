@@ -3,7 +3,7 @@
 }
 
 html{
-    /* comentar ambos para hacer responsive*/
+    /* comentar el ancho una vez comprobado que es paso a porcentaje es correcto debido a resolucion y así hacer responsive*/
     width: 1520.8px; /* tamaño fijo para traducir a porcentaje con referencia */
     background-color: rgb(255, 221, 197);
 }

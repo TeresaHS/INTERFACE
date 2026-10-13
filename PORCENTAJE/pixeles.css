@@ -3,7 +3,7 @@
 }
 
 html{
-    /*width: 1520.8px; /* tamaño fijo */
+    width: 1520.8px; /* tamaño fijo para poder hacer la comprobacion de que el paso a porcentajes es optimo*/
     background-color: rgb(255, 221, 197);
 }
 
@@ -27,6 +27,8 @@ form{
 h1{
     text-align: center;
 }
+
+/* valores fijos en px para los elementos del form*/
 
 #labelAsignatura{
     display: inline-block;
